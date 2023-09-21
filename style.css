@@ -1,0 +1,197 @@
+body
+{
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    background-image: url(background.jpg);
+    background-position:center;
+    background-size: cover;
+    background-repeat: no-repeat;    
+}
+header h2
+{
+    margin-left: 100px;
+    margin-top: 100px;
+    font-size: 60px;
+    font-family: sans-serif;
+    line-height: 1px;
+}
+header h2 a
+{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.61);
+    list-style-type:5px;
+    transition: 1s;
+}
+header h2 :hover
+{
+    color: rgb(255, 187, 198);
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.349);
+    font-size: 62px;
+
+}
+header ul a
+{
+    list-style: none;
+    display: flex;
+    margin-left: 30px;
+    text-decoration: none;
+    padding-top: 30px;
+    font-size: 20px;
+    color: rgba(255, 192, 203, 0.623);
+    font-family: sans-serif;
+    transition: 2s;
+}
+header ul a :hover
+{
+    color: rgb(255, 192, 203);
+    border-bottom: 2px solid pink;
+    transition: 200ms;
+    transition-timing-function: ease-in;
+    font-size: 21px;   
+}
+header li
+{
+    margin-left: 30px;  
+}
+.description
+{
+    width: 600px;
+    text-align: left;
+    margin-left: 100px;
+    margin-top: 30px;
+    font-size: 18px;
+    font-family: sans-serif;
+    color: rgba(255, 255, 255, 0.507);
+}
+.button
+{ 
+    width: 200px;
+    height: 50px;
+    background-color: rgba(255, 255, 255, 0.226);
+    margin-left: 100px;
+    margin-top: 30px;
+    border-radius: 20px;
+    filter: blur(0.2);
+    border: 2px solid rgba(209, 5, 5, 0.377);
+    transition: 500ms;  
+}
+.call
+{
+    width: 110px;
+    height: 50px;
+    background-color: rgba(255, 255, 255, 0.226);
+    margin-top: 30px;
+    margin-left: 50px;
+    border-radius: 20px;
+    border: 2px solid rgba(209, 5, 5, 0.377);
+    transition: 500ms;
+}
+.container
+{
+    display: flex;
+    transition: 3s;
+}
+.container :hover
+{
+    background-color: rgba(255, 192, 203, 0.527);
+    border-color: white;
+}
+.container .call :hover
+{
+    width: 110px;
+}
+.call :hover
+{
+    border-color: white;
+    width: 220px;
+}
+.button :hover
+{
+    width: 200px;
+}
+.container p
+{
+   text-align: center;
+   font-family: sans-serif;
+   color: rgba(0, 0, 0, 0.39);
+   font-size: 15px;
+   justify-content: center;
+   font-weight: bold;   
+}
+.container a
+{
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.39);
+}
+.mainContainer
+{
+    display: flex;
+}
+.container2
+{
+    width: 200px;
+    height: 400px;
+    margin-left: 60px;
+    margin-top: 100px;
+    border-radius: 30px;
+    border: 2px solid pink;
+    box-shadow: 3px 3px 10px pink;
+    opacity: 0.5;
+}
+.container3
+{
+    width: 200px;
+    height: 400px; 
+    margin-top: 100px;
+    margin-left: 10px;
+    border-radius: 30px;
+    margin-right: 5px;
+    margin-left: 30px;
+    transition: 1s; 
+    border: 2px solid pink;  
+    box-shadow: 3px 3px 10px pink;  
+    transform: rotate(-10deg 10deg);
+    background-position: center;
+    background-size: cover;
+    opacity: 0.5;
+}
+.secondmain
+{
+    display: flex;
+    transition: 500ms;
+}
+.secondmain :hover
+{
+    
+    width: 220px;
+    border-style:dotted;
+    height: 420px;
+    backdrop-filter: blur(0.1rem);
+    opacity: 1;
+}
+.secondmain .container2
+{
+    transition: 2s;
+}
+.projects
+{
+    height: 30px;
+    width: 365px;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    margin-left: 100px;
+    border-radius: 10px;
+    border: 2px solid rgba(0, 0, 0, 0.349);
+
+}
+.projects p
+{
+    margin-left: 120px;
+    font-family: sans-serif;
+    color:rgba(0, 0, 0, 0.603);
+}
+
